@@ -10,7 +10,7 @@ def majority_element_with_more_space(nums):
     for key, value in counts.items():
         if value > majority_limit:
             majority_limit = value
-            result = key
+            result = keyw
     return result
 
 def majority_element_better_solution(nums):
